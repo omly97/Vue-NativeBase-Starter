@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "NativeBase Test2",
-    "slug": "native-base-test2",
+    "name": "Vue NativeBase Starter",
+    "slug": "vue-nativebase-starter",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
