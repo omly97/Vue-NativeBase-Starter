@@ -6,8 +6,8 @@
                 <image-background :source="launchscreenLogo" class="logo" :style="stylesObj.logoStyle" />
             </view>
             <view class="text-container">
-                <nb-h3 :style="{ marginBottom: 8 }" class="text-color-white">App To Start With</nb-h3>
-                <nb-h3 class="text-color-white">NativeBase Components</nb-h3>
+                <nb-h3 :style="{ marginBottom: 8 }" class="text-color-white">Page Detail</nb-h3>
+                <nb-h3 class="text-color-white">NativeBase ComponentsX</nb-h3>
             </view>
             <view :style="{ marginBottom: 80 }">
                 <nb-button :style="stylesObj.btnContainer" :onPress="handleLetGoBtnPress">
@@ -50,7 +50,7 @@ export default {
     },
     methods: {
         handleLetGoBtnPress() {
-            this.navigation.navigate('Detail');
+            this.navigation.navigate('Home');
         }
     }
 };
